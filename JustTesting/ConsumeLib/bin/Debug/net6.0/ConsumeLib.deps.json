@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsumeLib/1.0.0": {
+        "dependencies": {
+          "RestClientLib": "1.0.0"
+        },
+        "runtime": {
+          "ConsumeLib.dll": {}
+        }
+      },
+      "RestClientLib/1.0.0": {
+        "runtime": {
+          "RestClientLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsumeLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestClientLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

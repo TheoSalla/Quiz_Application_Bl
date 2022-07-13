@@ -1,0 +1,35 @@
+@page "/Questions/"
+@page "/Questions/{category}"
+@inject JsonToModel Quiz
+
+<h1>HELLO YOU!</h1>
+
+@foreach (var item in Quiz.GetQuestions(cat, Difficulty.medium, 10).Results)
+{
+    <p>@item.Question</p>
+}
+@category
+@cat
+@code {
+
+    [ParameterAttribute]
+    public string category { get; set; }
+    [Parameter]
+    public Category cat { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        string cats = category.ToLower();
+        System.Console.WriteLine("Category: " + category);
+        Enum.TryParse(cats, out Category cat);
+        System.Console.WriteLine("Enum from conumer: " + cat);
+
+
+    }
+
+
+
+
+
+}

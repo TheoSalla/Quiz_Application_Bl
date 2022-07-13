@@ -1,0 +1,15 @@
+/home/theo/Programming/Projects/HttpClient_tutorial/bin/Debug/net6.0/HttpClient_tutorial
+/home/theo/Programming/Projects/HttpClient_tutorial/bin/Debug/net6.0/HttpClient_tutorial.deps.json
+/home/theo/Programming/Projects/HttpClient_tutorial/bin/Debug/net6.0/HttpClient_tutorial.runtimeconfig.json
+/home/theo/Programming/Projects/HttpClient_tutorial/bin/Debug/net6.0/HttpClient_tutorial.dll
+/home/theo/Programming/Projects/HttpClient_tutorial/bin/Debug/net6.0/HttpClient_tutorial.pdb
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.csproj.AssemblyReference.cache
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.AssemblyInfoInputs.cache
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.AssemblyInfo.cs
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.csproj.CoreCompileInputs.cache
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.dll
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/refint/HttpClient_tutorial.dll
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.pdb
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/HttpClient_tutorial.genruntimeconfig.cache
+/home/theo/Programming/Projects/HttpClient_tutorial/obj/Debug/net6.0/ref/HttpClient_tutorial.dll

@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/theo/Programming/Projects/ConsumeLib/ConsumeLib.csproj": {}
+  },
+  "projects": {
+    "/home/theo/Programming/Projects/ConsumeLib/ConsumeLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/theo/Programming/Projects/ConsumeLib/ConsumeLib.csproj",
+        "projectName": "ConsumeLib",
+        "projectPath": "/home/theo/Programming/Projects/ConsumeLib/ConsumeLib.csproj",
+        "packagesPath": "/home/theo/.nuget/packages/",
+        "outputPath": "/home/theo/Programming/Projects/ConsumeLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/theo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/theo/Programming/Projects/RestClientLib/RestClientLib.csproj": {
+                "projectPath": "/home/theo/Programming/Projects/RestClientLib/RestClientLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/theo/Programming/Projects/RestClientLib/RestClientLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/theo/Programming/Projects/RestClientLib/RestClientLib.csproj",
+        "projectName": "RestClientLib",
+        "projectPath": "/home/theo/Programming/Projects/RestClientLib/RestClientLib.csproj",
+        "packagesPath": "/home/theo/.nuget/packages/",
+        "outputPath": "/home/theo/Programming/Projects/RestClientLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/theo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+﻿@page "/"
+@inject NavigationManager _navigationManager
+
+<PageTitle>Quiz</PageTitle>
+
+<br>
+<div class="text-center m">
+    <h1 class="text-primary">Welcome to the Quiz!</h1>
+</div>
+<div class="text-center m-4">
+    <label class="text-primary">Choose your category</label>
+</div>
+
+<div class="text-center">
+    <button @onclick="() => GoToCategory(Computer)" class="btn btn-outline-primary"> @Computer</button>
+    <button @onclick="() => GoToCategory(Movie)" class="btn btn-outline-primary">@Movie</button>
+    <button @onclick="() => GoToCategory(History)" class="btn btn-outline-primary">@History</button>
+</div>
+<br>
+<br>
+
+<div class="text-center">
+    <img src="images/donald.gif" style="border-radius: 20%;">
+</div>
+
+
+@code {
+    public string Computer { get; set; } = "Computer";
+    public string Movie { get; set; } = "Movie";
+    public string History { get; set; } = "History";
+
+    public void GoToCategory(string category)
+    {
+        System.Console.WriteLine("You clicked");
+        System.Console.WriteLine("Category " + category);
+        _navigationManager.NavigateTo($"/Questions/{category}");
+
+    }
+}
